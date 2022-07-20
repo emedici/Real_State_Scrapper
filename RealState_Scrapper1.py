@@ -62,11 +62,8 @@ while i <= tpages-1:
        if urls_str==None or urls_str=="": 
            pass
        adpages_list.append(urls_str)  # Here I modify the last_list, no affectation
-  #index1 = adpages_list.index('javascript:void(0)')+7
-  #index2 = adpages_list.index(df_webpages.iat[max(0,webpages_index-1),0])
+  
   adpages_dump_list.extend(adpages_list)
-  #print(adpages_dump_list)
-  #print(len(adpages_dump_list))
-  #time.sleep(max(random.gauss(0.11, 0.1),0))
+
   i += 1
 print(adpages_dump_list)
